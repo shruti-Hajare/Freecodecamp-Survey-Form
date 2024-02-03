@@ -1,0 +1,56 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 id="title">freeCodeCamp Survey Form </h1>
+    <link rel="stylesheet" href="styles.css">
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form">
+      <label id="name-label">Name</label>
+      <input id="name" type="text" placeholder="Enter Name" required/>
+      <label id="email-label">Email</label>
+      <input id="email" type="email" placeholder="Enter Email" value="" required/>
+      <label id="number-label">Number</label>
+      <input id="number" type="number" min=10 max=20 type="number" placeholder="no" value=""/>
+      <select id="dropdown" placeholder="gg">
+          <option value="op1">Option1</option>
+         <option value="op2">Option2</option>
+      </select>
+      <label>
+      <input type="radio" value="test" name="test">Definitely</input>
+      <input type="radio" value="test" name="test">Maybe</input>
+      <input type="radio" value="test" name="test">Not sure<
+        /input>
+      </label>
+      <input type="checkbox" value="checkbox" name="checkbox1">frontend</input>
+      <input type="checkbox" value="checkbox" name="checkbox2">backend</input>
+      <input type="checkbox" value="checkbox" name="checkbox3">Data Visualization</input>
+      <input type="checkbox" value="checkbox" name="checkbox4">challenges</input>
+      <input type="checkbox" value="checkbox" name="checkbox5">Open Source Community</input>
+      <input type="checkbox" value="checkbox" name="checkbox6">Gitter help rooms</input>
+      <input type="checkbox" value="checkbox" name="checkbox7">Videos</input>
+      <input type="checkbox" value="checkbox" name="checkbox8">City Meetups</input>
+      <input type="checkbox" value="checkbox" name="checkbox9">Wiki</input>
+      <input type="checkbox" value="checkbox" name="checkbox10">Forum</input>
+      <input type="checkbox" value="checkbox" name="checkbox11">Additional Courses</input>
+      <textarea name="comment">Enter text here...</textarea>
+      <input id="submit" type="submit"/>
+    </form>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+
+
+** end of undefined **
+
